@@ -1,4 +1,4 @@
-FROM dockerfile/elasticsearch
+FROM elasticsearch
 
 # Install the required plugins
 RUN /elasticsearch/bin/plugin -install mobz/elasticsearch-head
